@@ -20,7 +20,7 @@ Starts watch tasks to compile when changes detected
 npm start
 ```
 
-### Creating a production build
+### Creating a production build probably
 
 Minify JS, CSS and HTML.
 

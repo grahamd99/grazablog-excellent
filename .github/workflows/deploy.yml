@@ -37,7 +37,7 @@ jobs:
 
       - name: Deploy to S3
         run: |
-          aws s3 sync _site s3://privates3cloudfrontwebsitest-websitebucket75c24d94-lscgymyykqe8 \
+          aws s3 sync dist s3://privates3cloudfrontwebsitest-websitebucket75c24d94-lscgymyykqe8 \
             --delete \
             --cache-control "max-age=300"
 
